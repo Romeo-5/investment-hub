@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../..
 import { generateMockPortfolioData } from '../../lib/mockData';
 import { PortfolioData } from '../../types/portfolio';
 import { formatCurrency, formatPercent, formatNumber } from '../../lib/utils';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ScatterChart, Scatter, ZAxis } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ScatterChart, Scatter, ZAxis, Cell } from 'recharts';
 
 export default function AnalyticsPage() {
   const [portfolioData, setPortfolioData] = useState<PortfolioData | null>(null);
