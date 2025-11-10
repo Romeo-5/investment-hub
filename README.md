@@ -95,9 +95,9 @@ investment-hub/
 - [x] Mock data generation
 - [x] Dashboard with key metrics
 - [x] Analytics page with risk metrics
-- [ ] Holdings detailed view
-- [ ] Research/screening tools
-- [ ] Transaction history
+- [x] Holdings detailed view
+- [x] Research/screening tools
+- [x] Transaction history
 - [ ] Charles Schwab API integration
 - [ ] Python FastAPI backend
 - [ ] ML models for predictions
